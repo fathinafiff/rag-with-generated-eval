@@ -1,5 +1,8 @@
 import src.streamlit_patch as streamlit_patch  # noqa: F401
 import streamlit as st
+import nltk
+
+nltk.download("punkt_tab")
 
 # Import our modules
 from src.utils import (
