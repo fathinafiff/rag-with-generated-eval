@@ -1,5 +1,3 @@
-# PDF Chatbot
-
 A Streamlit application that allows users to chat with their PDF documents using Groq API for generating responses.
 
 ## Features
