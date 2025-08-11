@@ -61,7 +61,7 @@ docker-compose up -d
 export GROQ_API_KEY=your_groq_api_key_here
 ```
 
-4. Install the Python dependencies using uv[https://docs.astral.sh/uv/getting-started/installation/]:
+4. Install the Python dependencies using [uv](https://docs.astral.sh/uv/getting-started/installation/) :
 
 ```bash
 uv sync
