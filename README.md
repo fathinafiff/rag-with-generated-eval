@@ -93,7 +93,3 @@ You can configure the following settings in the application:
 
 - `GROQ_API_KEY`: Your Groq API key (required for generating responses)
 - `OPENAI_API_KEY`: Your OpenAI API key (required for RAGAS evaluation)
-
-## License
-
-This project is licensed under the MIT License.
