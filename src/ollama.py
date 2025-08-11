@@ -11,7 +11,7 @@ AVAILABLE_MODELS = [
 
 def get_groq_api_key():
     """Get the Groq API key from environment variable."""
-    api_key = os.environ.get("GROQ_API_KEY")
+    api_key = st.secrets.GROQ_API_KEY
     if not api_key:
         st.warning("GROQ_API_KEY environment variable not set. Using demo mode.")
     return api_key
