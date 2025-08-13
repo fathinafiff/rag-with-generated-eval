@@ -248,7 +248,7 @@ def process_test_dataset():
                 question,
                 relevant_chunks,
                 model_name=st.session_state.ollama_model,
-                approach="zero-shot",  # Default to zero-shot for evaluation
+                approach="zero-shot",  
             )
 
             return response, relevant_chunks
@@ -413,7 +413,7 @@ def main():
             process_pdf(uploaded_file)
 
             # Approach selection
-            approach = st.radio("Select method approach:", ("zero-shot", "few-shot"))
+            # approach = st.radio("Select method approach:", ("zero-shot", "few-shot"))
 
             # Status indicator
             if st.session_state.file_name:
