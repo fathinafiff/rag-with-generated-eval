@@ -89,7 +89,7 @@ def prepare_evaluation_data(
 
 def get_groq_api_key() -> Optional[str]:
     """Get the Groq API key from environment variable."""
-    api_key = ""
+    api_key = st.secrets.GROQ_API_KEY
     if not api_key:
         st.warning(
             "GROQ_API_KEY environment variable not set. RAGAS evaluation requires this to be set."
